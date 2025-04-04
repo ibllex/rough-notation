@@ -1,6 +1,6 @@
 {
   "name": "@ibllex/rough-notation",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Create and animate hand-drawn annotations on a web page",
   "main": "lib/rough-notation.cjs.js",
   "module": "lib/rough-notation.esm.js",
