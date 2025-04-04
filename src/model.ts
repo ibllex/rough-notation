@@ -18,6 +18,7 @@ export interface RoughAnnotationConfig extends RoughAnnotationConfigBase {
   type: RoughAnnotationType;
   multiline?: boolean;
   rtl?: boolean;
+  wrapper?: HTMLElement;
 }
 
 export interface RoughAnnotationConfigBase {
