@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pshihn/rough-notation.git"
+    "url": "git+https://github.com/ibllex/rough-notation.git"
   },
   "keywords": [
     "annotate",
@@ -22,9 +22,9 @@
   "author": "Preet Shihn",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pshihn/rough-notation/issues"
+    "url": "https://github.com/ibllex/rough-notation/issues"
   },
-  "homepage": "https://github.com/pshihn/rough-notation#readme",
+  "homepage": "https://github.com/ibllex/rough-notation#readme",
   "devDependencies": {
     "rollup": "^2.32.1",
     "rollup-plugin-node-resolve": "^5.2.0",
