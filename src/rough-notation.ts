@@ -85,7 +85,8 @@ class RoughAnnotationImpl implements RoughAnnotation {
       style.width = '100px';
       style.height = '100px';
       const prepend = this._config.type === 'highlight';
-      this._e.insertAdjacentElement(prepend ? 'beforebegin' : 'afterend', svg);
+      document.body.insertAdjacentElement(prepend ? 'beforebegin' : 'afterend', svg);
+      // this._e.insertAdjacentElement(prepend ? 'beforebegin' : 'afterend', svg);
       this._state = 'not-showing';
 
       // ensure e is positioned
